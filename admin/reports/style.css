@@ -1,0 +1,187 @@
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+body {
+  background: #ccc;
+  margin: 0 auto;
+}
+
+#cmd 
+{
+  margin-left: 685px;
+  outline: none;
+  background: none;
+  border: none;
+  color: #006e72;
+  appearance: none;
+}
+#cmd i
+{
+  font-size: 30px;
+  color: #006e72;
+}
+#page {
+  font-family: Roboto, sans-serif;
+  margin: 0px auto;
+  max-width: 210mm;
+  max-height: 297mm;
+  background: #fff;
+  padding: 20px 40px;
+  min-width: 210mm;
+}
+
+.brand-logo {
+  background: #ccc;
+  background-image: url("http://8kmiles.com/wp-content/themes/bkmiles/images/logo.png");
+  float: right;
+  background-size: auto 30px;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 110px;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 400;
+  color: #006e72;
+  font-weight: bolder;
+}
+
+@page :right {
+  size: A4 portrait;
+  @bottom-left {
+    content: "Reports";
+  }
+  @bottom-center {
+    content: "Copyright 8K Miles";
+    font-size: 10px;
+    color: #333;
+  }
+}
+.text-body {
+  margin: 0.5em 0 1em;
+}
+
+.summary {
+  background: #eee;
+  padding: 20px 20px;
+  width: calc(50% - 40px);
+  float: left;
+  margin: 1em 0px 1.5em;
+}
+
+.labels {
+  font-weight: 300;
+  width: 40%;
+  float: left;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.values {
+  font-weight: 500;
+  padding-bottom: 0.5em;
+  margin-left: 0px;
+}
+
+.labels::after {
+  content: " :";
+}
+
+.section-title {
+  font-weight: 300;
+  clear: both;
+  margin-top: 1.5em;
+  margin-bottom: 0.3em;
+  border-bottom: 1px solid #00a99d;
+  page-break-after: avoid;
+}
+
+h1 {
+  page-break-before: always;
+}
+
+/* $issue-red:#EF4136; */
+.issue-view {
+  width: 500px;
+  margin: 50px auto;
+  font-weight: 300;
+  text-align: center;
+}
+
+.new-issues {
+  font-size: 2em;
+  color: #F47E65;
+}
+
+.new-issues + span {
+  font-weight: 400;
+  color: #F47E65;
+}
+
+.issue-categ {
+  width: auto;
+  float: left;
+  margin: 20px 35px;
+  margin-top: 60px;
+}
+
+.issue-num {
+  margin-left: -12px;
+  margin-top:-25px;
+  font-size: 1.6em;
+  color: #333;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  border: 5px solid #006e72;
+  line-height: 90px;
+}
+
+.issue-num + span {
+  font-size: 1em;
+  font-weight: 400;
+}
+.title
+{
+  margin-left: -10px;
+}
+.total{
+  font-weight: bolder;
+  color:gray;
+}
+.issue-total {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.total-issues {
+  border-radius: 100%;
+  border: 1px solid #F47E65;
+  background: #F47E65;
+  margin: 220px auto 10px;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  color: white;
+  font-size: 2.5em;
+}
+
+.total-issues + span {
+  color: #F47E65;
+  font-size: 1em;
+  font-weight: 400;
+}
